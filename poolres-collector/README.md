@@ -36,10 +36,10 @@ PoolRes Collector is a Prometheus exporter designed to monitor IIS (Internet Inf
 
 ## Usage
 
-By default, PoolRes Collector runs on port `9183`. You can access the metrics endpoint at:
+By default, PoolRes Collector runs on port `9182`. You can access the metrics endpoint at:
 
 ```
-http://<your-windows-host>:9183/metrics
+http://<your-windows-host>:9182/metrics
 ```
 
 Example output:
@@ -74,7 +74,7 @@ Add the following scrape job to your Prometheus configuration file:
 scrape_configs:
   - job_name: 'poolres-collector'
     static_configs:
-      - targets: ['<your-windows-host>:9183']
+      - targets: ['<your-windows-host>:9182']
 ```
 
 ## Contributing
@@ -83,7 +83,7 @@ Contributions are welcome! Please feel free to open issues or submit pull reques
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the Apache-2.0 License. See the [LICENSE](LICENSE) file for details.
 
 ---
 
