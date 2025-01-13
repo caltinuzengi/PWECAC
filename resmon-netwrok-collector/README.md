@@ -36,10 +36,10 @@ Resmon Collector is a lightweight and efficient Prometheus exporter that collect
 
 ## Usage
 
-By default, Resmon Collector runs on port `9182`. You can access the metrics endpoint at:
+By default, Resmon Collector runs on port `9183`. You can access the metrics endpoint at:
 
 ```
-http://<your-windows-host>:9182/metrics
+http://<your-windows-host>:9183/metrics
 ```
 
 Example output:
